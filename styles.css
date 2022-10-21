@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.header {
+    background-color: #232323;
+}
+
+.header .row {
+    align-items: center;
+}
+
+.logo {
+    background-color: #dc9d40;
+    margin: 11px 0;
+}
+
+.logo h1 {
+    text-align: center;
+    font-size: 38px;
+    color: #d5e7df;
+
+}
+
+.nav-links ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 12px;
+    margin-top: 10px;
+}
+
+.nav-links ul li a {
+    color: #f6fffb;
+}
+
+.nav-links ul li a:hover {
+    color: #dc9d40;
+}
+
+.social-icons ul li {
+    display: inline-block;
+    list-style-type: none;
+    border: 1px dotted #f6fffb;
+    padding: 5px 10px;
+}
+
+.social-icons ul li a {
+    color: #f6fffb;
+}
+
+.social-icons ul li a:hover,
+select:hover {
+    color: #dc9d40;
+}
+
+select {
+    background: transparent;
+    color: #fefff8;
+    border: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+select option {
+    background-color: #dc9d40;
+    color: black;
+}
+
+.social-icons ul li a i {
+    /* padding: 10px; */
+}
+
+/* ////////////////////////////////// Hero Section //////////////////////////////////////////// */
+.hero-section-wrapper {
+    background: rgba(0, 0, 0, 0.6) url('assets/bg7.jpg');
+    background-blend-mode: darken;
+    height: 700px;
+}
+
+.hero-text h2 {
+    text-align: center;
+    font-weight: 100;
+    color: #fefefe;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 142px;
+}
+
+.hero-text h3 {
+    text-align: center;
+    font-weight: 500;
+    color: #fefefe;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.hero-btn {
+    position: relative;
+}
+
+.hero-btn .btn button:hover {
+    background-color: #dc9d40;
+    border: 1px solid #dc9d40;
+    color: white;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.hero-btn .btn button {
+    color: #fefefe;
+    background: transparent;
+    padding: 14px 33px;
+    border: 1px solid #fefefe;
+}
+
+.hero-cards-wrapper {
+    position: relative;
+    top: 150px;
+}
+
+.hero-card {
+    background: rgba(0, 0, 0, 0.4);
+    color: #eeeeee;
+    padding: 30px 70px;
+    text-align: center;
+    border: 1px dotted #dc9d40;
+}
+
+.hero-card i {
+    font-size: 30px;
+    margin-bottom: 33px;
+}
+
+.hero-card i:hover {
+    color: peru;
+}
+
+.hero-card p {
+    font-size: 15px;
+    color: #89888d;
+}
+
+/* ////////////////// About section /////////////////// */
+.about-us-wrapper {
+    margin-bottom: 69px;
+}
+
+.main-heading-wrapper h2 {
+    margin-top: 73px;
+    margin: 73px 0 45px;
+    font-weight: 100;
+    font-size: 45px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about-row .about-img img {
+    width: 100%;
+    height: 500px;
+}
+
+.about-us-text-wrapper h3 {
+    color: #dc9d40;
+    text-transform: uppercase;
+}
+
+.about-us-text-wrapper h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.dotted {
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.readmore {
+    padding: 10px 25px;
+    color: #fefefe;
+    background-color: #333333;
+    border: 1px solid #333333;
+}
+
+.readmore:hover {
+    opacity: 0.9;
+}
+
+.contact-us {
+    padding: 10px 25px;
+    color: #fefefe;
+    background-color: #dc9d40;
+    border: 1px solid #dc9d40;
+}
+
+.contact-us:hover {
+    opacity: 0.9;
+}
+
+/* ///////////////// Services Section /////////////////// */
+
+.Services-wrapper {
+    background-color: #232323;
+}
+
+.Services-wrapper .main-heading-wrapper h2 {
+    padding-top: 73px;
+}
+
+.services {
+    margin-bottom: 59px;
+}
+
+.services h2 {
+    color: #fcffff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.road-travel-info h2 {
+    padding-bottom: 18px;
+}
+
+.services p {
+    font-size: 15px;
+    color: #8e95a8;
+    text-transform: capitalize;
+}
+
+.services i {
+    color: #dc9d40;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.road-travel-info button {
+    background-color: #dc9d40;
+    color: #fcffff;
+    padding: 12px 35px;
+    border: none;
+}
+
+.road-travel-info button:focus {
+    outline: none;
+}
+
+.road-travel-info button:hover {
+    opacity: 0.8;
+}
+
+.our-travel-guide-wrapper .col-lg-3 {
+    height: 326px;
+}
+
+.travel-guide-img-wrapper {
+    position: relative;
+    margin-bottom: 200px;
+
+}
+
+.travel-guide-img-wrapper img {
+    width: 100%;
+    height: 326px;
+}
+
+.guide-social {
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: #a77c3994;
+    width: 100%;
+    height: 100%;
+}
+
+.guide-social ul {
+    margin: 50% 20%;
+}
+
+.guide-social ul li {
+    margin: 0 3px;
+}
+
+.travel-guide-img-wrapper:hover .guide-social {
+    display: block;
+}
+
+.even {
+    color: #fcffff;
+}
+
+/* //////////////////////////////////// flip card ///////////////////////////////////////////// */
+.flip-card {
+    background-color: transparent;
+    width: 540px;
+    height: 340px;
+    perspective: 1000px;
+    margin-bottom: 30px;
+}
+
+.flip-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back-text {
+    padding: 52px;
+    color: white;
+    height: 100%;
+}
+
+.flip-card-back-text h2 {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.flip-card-back-text h3 {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.flip-card-back-text p {
+    font-size: 13px;
+}
+
+
+.flip-card-back-text button {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 20px;
+}
+
+.flip-text-card-1 {
+    background-color: #b52e32;
+}
+
+.flip-text-card-2 {
+    background-color: #2b2b2b;
+}
+
+.flip-text-card-3 {
+    background-color: #dc9d40;
+}
+
+/* //////////////////// testimonials /////////////////////////////////////// */
+.testimonial-wrapper {
+    background-color: #232323;
+    color: #fff;
+    padding: 5px 0 69px;
+}
+
+.stars:hover {
+    color: #dc9d40;
+}
+
+.testimonial-img img {
+    width: 80%;
+    border: 1px dotted #dc9d40;
+    padding: 10px;
+}
+
+.testimonial-wrapper .owl-carousel h2 {
+    color: #dc9d40;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.testimonial-wrapper .owl-carousel h3 {
+    color: #b4b4b4;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.testimonial-wrapper .owl-carousel p {
+    color: #b4b4b4;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.testimonial-wrapper .owl-carousel i {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.testimonial-wrapper .owl-nav {
+    position: relative;
+}
+
+.testimonial-wrapper .owl-dots {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: grid;
+}
+
+/* ///////////////////// Recent Trips ///////////////////////////// */
+.recent-trips-wrapper {
+    padding-bottom: 100px;
+}
+
+.recent-trips-wrapper .col-lg-4 {
+    padding-left: 0;
+}
+
+.img-card {
+    position: relative;
+}
+
+.img-card:hover .places-hover {
+    display: block;
+}
+
+.places-hover {
+    position: absolute;
+    top: 0;
+    color: #fafbff;
+    display: none;
+    background: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+}
+
+.recent-trips-wrapper .img-card img,
+.places-hover {
+    width: 100%;
+    height: 372px;
+}
+
+.places-text-wrapper {
+    margin-left: 28px;
+}
+
+.places-text-wrapper i {
+    margin: 32px 3px 0;
+    font-size: 12px
+}
+
+.places-hover h2 {
+    margin-bottom: 165px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.places-to-visit span {
+    font-weight: 500;
+}
+
+.recent-trips-wrapper .owl-theme .owl-dots .owl-dot span {
+    background: #dc9d40;
+}
+
+/* ///////////////////////////// Contact Section //////////////////////////////////////// */
+.contact-section-wrapper {
+    margin-bottom: 70px;
+}
+
+.contact-form input {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 120px;
+    padding: 8px 10px;
+}
+
+.submit-btn {
+    background-color: #dc9d40;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 52px;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+}
+
+.address-info h2 {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.address-info p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.address-info i {
+    color: #dc9d40;
+    font-size: 22px;
+    padding-right: 15px;
+}
+
+.map {
+    border: 3px dotted #dc9d40;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.subscribe-wrapper {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.subscribe-wrapper input {
+    background-color: #232323;
+    padding: 10px 380px 10px 15px;
+    border: none;
+    border-radius: 50px;
+}
+
+.subscribe-btn {
+    position: absolute;
+    top: 2px;
+    right: 269px;
+}
+
+.subscribe-btn button {
+    background-color: #dc9d40;
+    color: #fcffff;
+    padding: 8px 33px;
+    border: none;
+    border-radius: 50px;
+}
+
+.subscribe-btn button:hover {
+    opacity: 0.8;
+}
+
+/* //////////////////// Footer ///////////////////////  */
+.footer-wrapper {
+    background-color: #232323;
+    padding-top: 81px;
+}
+
+.footer-section h2 {
+    color: #dc9d40;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.footer-section p {
+    color: #f6fffa;
+    font-size: 15px;
+}
+
+.footer-section a p {
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #665e54;
+}
+
+.footer-address-info p,
+.quick-links h2 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 100;
+    color: #f6fffa;
+}
+
+.quick-links h2 {
+    margin-bottom: 10px;
+}
+
+.footer-address-info i {
+    font-size: 10px;
+    padding-right: 15px;
+}
+
+.latest-tweet i {
+    font-size: 33px;
+    margin-top: 15px;
+    padding-right: 15px;
+    color: #f6fffa;
+}
+
+.latest-tweet p {
+    font-size: 17px;
+    padding-right: 15px;
+    color: #f6fffa;
+}
+
+.latest-tweet p span {
+    color: grey;
+}
+
+.footer-copyright-wrapper {
+    position: relative;
+    border-top: 1px solid #777777;
+    margin-top: 10px;
+    padding-top: 34px;
+}
+
+.footer-copyright-wrapper p {
+    color: #fff;
+    font-size: 13px;
+    padding-bottom: 34px;
+}
+
+.footer-copyright-wrapper span {
+    color: #dc9d40;
+}
+
+.footer-copyright-wrapper .social-icons {
+    font-size: 11px;
+}
+
+.up {
+    position: absolute;
+    top: 59px;
+    right: -86px;
+}
+
+.up i {
+    color: #dc9d40;
+    font-size: 35px;
+}
