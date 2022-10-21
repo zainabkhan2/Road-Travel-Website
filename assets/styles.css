@@ -78,7 +78,7 @@ select option {
 
 /* ////////////////////////////////// Hero Section //////////////////////////////////////////// */
 .hero-section-wrapper {
-    background: rgba(0, 0, 0, 0.6) url('assets/bg7.jpg');
+    background: rgba(0, 0, 0, 0.6) url('images/bg7.jpg');
     background-blend-mode: darken;
     height: 700px;
 }
@@ -424,7 +424,12 @@ select option {
     font-size: 13px;
 }
 
-.testimonial-wrapper .owl-carousel i {
+.testimonial-text-wrapper p i {
+    color: #dc9d40;
+    margin: 0 10px;
+}
+
+.stars i {
     font-size: 13px;
     margin-left: 5px;
 }
